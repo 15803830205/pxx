@@ -8,8 +8,11 @@
     <artifactId>shop-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>shop-mvc-api</module>
-        <module>shop_springboot-api</module>
+        <module>takeout-product</module>
+        <module>takeout-order</module>
+        <module>config-server</module>
+        <module>springcloud-gateway</module>
+        <module>takeout-user</module>
     </modules>
     <packaging>pom</packaging>
 

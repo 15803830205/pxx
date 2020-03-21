@@ -6,16 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="notification-center" />
-        <module name="shop_springboot-api" />
-        <module name="shop-mvc-api" />
+        <module name="shop-admin" />
+        <module name="config-server" />
+        <module name="springcloud-gateway" />
+        <module name="takeout-client" />
+        <module name="takeout-common" />
+        <module name="springcloud-eureka" />
+        <module name="takeout-service" />
+        <module name="user-server" />
+        <module name="takeout-server" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="notification-center" options="-parameters" />
-      <module name="shop_springboot-api" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="springcloud-eureka" options="-parameters" />
+      <module name="springcloud-gateway" options="-parameters" />
+      <module name="takeout-client" options="-parameters" />
+      <module name="takeout-common" options="-parameters" />
+      <module name="takeout-server" options="-parameters" />
+      <module name="takeout-service" options="-parameters" />
+      <module name="user-server" options="-parameters" />
     </option>
   </component>
 </project>
